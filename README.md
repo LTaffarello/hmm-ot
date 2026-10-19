@@ -1,6 +1,6 @@
 # Discovery of Latent Clinical Phenotypes Through Optimal Transport of Brain Dynamics
 
-![HMM-OT framework](figures/Fig1.pdf)
+![HMM-OT framework](figures/Fig1.png)
 
 ## Overview
 This repository implements a framework combining Gaussian Hidden Markov Models (HMMs) and Optimal Transport (OT) to quantify inter-individual variability in resting-state brain dynamics. A group-level Gaussian HMM identifies a discrete set of latent brain states characterized by distinct functional connectivity patterns. Individual dynamics are then summarized by state occupancy distributions and transition statistics. Using a Schrödinger bridge formulation of OT, the framework quantifies the minimal modulation of the source subject's state-transition dynamics required to match the target subject's state occupancy distribution. The resulting pairwise dissimilarities capture aspects of temporal brain organization not represented by static functional connectivity alone.
