@@ -11,7 +11,7 @@ Applied to resting-state fMRI from relapsing–remitting multiple sclerosis (RRM
 ### Notebooks
 - [`hmm_ot_main_analysis.ipynb`](./hmm_ot_main_analysis.ipynb) - Main analyses, including Gaussian HMM inference, characterization of brain-state dynamics, and OT-based subject dissimilarities.
 - [`hmm_ot_pipeline.ipynb`](./hmm_ot_pipeline.ipynb) - Execution of the full HMM–OT analysis pipeline across different PCA dimensions and numbers of latent states to assess the robustness of the results.
-- [`supp_analyses_panels.ipynb`](./supp_analyses_panels.ipynb) - Supplementary analyses and figure/panel generation.
+- [`supp_analyses_panels.ipynb`](./hmm_ot_figures.ipynb) - Supplementary analyses and figure/panel generation.
 
 ### Data and Figures
 - [`data/`](./data/) - Saved results from the HMM–OT analyses.
